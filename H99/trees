@@ -1,0 +1,11 @@
+tree64 = Branch 'n' (Branch 'k' (Branch 'c'(Branch 'a' Empty Empty)(Branch 'h'(Branch 'g'(Branch 'e' Empty Empty)Empty)Empty))(Branch 'm' Empty Empty))(Branch 'u'(Branch 'p'Empty(Branch 's'(Branch 'q' Empty Empty)Empty))Empty)
+
+tree1 = Node 'a' []
+ 
+tree2 = Node 'a' [Node 'b' []]
+ 
+tree3 = Node 'a' [Node 'b' [Node 'c' []]]
+ 
+tree4 = Node 'b' [Node 'd' [], Node 'e' []]
+ 
+tree5 = Node 'a' [Node 'f' [Node 'g' []],Node 'c' [],Node 'b' [Node 'd' [], Node 'e' []]]
